@@ -28,8 +28,9 @@ The initial model was trained using one single layer of neurons with RELU activa
 
 The initial model's parameters were determined as the smallest neural network, as well as the least amount of classifications and application types. This resulted in a model with 72% accuracy and .5714 loss.
 
-After this, 
+After this, the model's parameters were repeatedly changed, but no model provided an accuracy greater than 73%. Changes included number of hidden layers, number of neurons per layer, activation type, number of combined unique values, and number of epochs.
 
 
 ## Summary
 
+The model was only able to achieve 72-73% accuracy, which is relatively low for a production model. It is possible that dropping additional features and using deep learning to automate the hyperparameters that this model could become more accurate. Other models could also be attempted, such ass the random forest model.
